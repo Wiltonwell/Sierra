@@ -1,4 +1,4 @@
-.btnpic{
+.social_pic{
     width: 40px;
     height: 40px;
     margin-right: 10px;
@@ -6,7 +6,16 @@
 .foot_menu{
     text-align: center;
 }
-
+.fixed_navbar{
+    position: fixed;
+    background: white;
+    margin: 0;
+    width: 100%;
+}
+.navbar_content{
+    background: green;
+    text-align: left;
+}
 h1{
     text-align: center;
 }
@@ -16,4 +25,21 @@ body{
 }
 .upcoming{
     text-align: center;
+}
+.box{
+    border: 10px ridge #f00;
+    background-color: #ff0;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+.other_btn {
+    background-color: green;
+    border: 2px solid;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 0 1em;
+    text-decoration: none;
+    position: relative;
 }
