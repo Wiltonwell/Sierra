@@ -1,0 +1,19 @@
+.btnpic{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.foot_menu{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+body{
+    background-image: repeating-radial-gradient(Red, Blue);
+    text-align: center;
+}
+.upcoming{
+    text-align: center;
+}
