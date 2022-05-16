@@ -5,6 +5,7 @@
     filter: invert();
 }
 .foot_menu{
+    margin-top: 10px;
     text-align: center;
 }
 .fixed_navbar{
@@ -48,6 +49,8 @@ h1{
 }
 body{
     /*background-image: repeating-radial-gradient(Red, Blue);*/
+    height: 100%;
+    width: auto;
     background: url(Media/purple2.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -67,10 +70,10 @@ body{
 }
 .other_btn {
     z-index: 1;
-    background-color: plum;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
     border: 2px solid;
     display: block;
-    cursor: pointer;
     font-size: 17px;
     padding: 0 1em;
     text-decoration: none;
@@ -86,4 +89,210 @@ body{
     margin-right: auto;
     width: auto;
     height: auto;
+}
+.show{
+    z-index: 1;
+    margin-top: 10px;
+    border: 2px solid;
+    backdrop-filter: invert(100%);
+    background-color: transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-evenly;
+    position: relative;
+}
+.left{
+    margin-left: 15px;
+    font-size: 20px;
+    flex-grow: 1;
+}
+.middle{
+    flex-wrap: wrap;
+    flex-grow: 3;
+    text-align: center;
+    font-size: 30px;
+}
+.right{
+    flex-grow: 1;
+    margin-right: 10px;
+    align-content: center;
+}
+.calendar_pic{
+    width: 60px;
+    height: 60px;
+}
+.show1{
+     z-index: 1;
+     margin-top: 0px;
+     border: 2px solid;
+     backdrop-filter: invert(30%);
+     /*changed margin and invert*/
+     background-color: transparent;
+     display: flex;
+     flex-wrap: nowrap;
+     align-items: center;
+     gap: 10px;
+     justify-content: space-evenly;
+     position: relative;
+ }
+.left1{
+    margin-left: 20px;
+    font-size: 23px;
+    flex-grow: 1;
+}
+.middle1{
+    flex-wrap: wrap;
+    flex-grow: 3;
+    text-align: center;
+    font-size: 30px;
+}
+.right1{
+    flex-grow: 1;
+    margin-right: 10px;
+    align-content: center;
+}
+.calendar_pic1{
+    width: 60px;
+    height: 60px;
+}
+.show2{
+    z-index: 1;
+    margin-top: 10px;
+    border: 2px solid;
+    backdrop-filter: invert(40%);
+    background-color: transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-evenly;
+    position: relative;
+}
+.left2{
+    margin-left: 15px;
+    font-size: 20px;
+    flex-grow: 1;
+}
+.middle2{
+    flex-wrap: wrap;
+    flex-grow: 3;
+    text-align: center;
+    font-size: 30px;
+}
+.right2{
+    flex-grow: 1;
+    margin-right: 10px;
+    align-content: center;
+}
+.calendar_pic2{
+    width: 75px;
+    height: 75px;
+}
+.show3{
+    z-index: 1;
+    margin-top: 10px;
+    border-radius: 40px;
+    border: 2px solid;
+    backdrop-filter: invert(30%) blur(20px);
+    background-color: transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-evenly;
+    position: relative;
+}
+.left3{
+    margin-left: 15px;
+    font-size: 20px;
+    flex-grow: 1;
+}
+.middle3{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    text-align: center;
+    font-size: 30px;
+}
+.right3{
+    flex-grow: 1;
+    margin-right: 10px;
+    align-content: center;
+}
+.calendar_pic3{
+    width: 60px;
+    height: 60px;
+}
+.show4{
+    z-index: 1;
+    margin-top: 10px;
+    border: 2px solid;
+    backdrop-filter: grayscale(100%);
+    background-color: transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-evenly;
+    position: relative;
+    color: white;
+}
+.left4{
+    margin-left: 15px;
+    font-size: 20px;
+    flex-grow: 1;
+}
+.middle4{
+    flex-wrap: wrap;
+    flex-grow: 3;
+    text-align: center;
+    font-size: 30px;
+}
+.right4{
+    flex-grow: 1;
+    margin-right: 10px;
+    align-content: center;
+}
+.calendar_pic4{
+    filter: invert(100%);
+    width: 60px;
+    height: 60px;
+}
+.show5{
+    z-index: 1;
+    margin-top: 10px;
+    border: 2px solid;
+    backdrop-filter: sepia(11000%);
+    background-color: transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-evenly;
+    position: relative;
+    color: red;
+}
+.left5{
+    margin-left: 15px;
+    font-size: 20px;
+    flex-grow: 1;
+}
+.middle5{
+    flex-wrap: wrap;
+    flex-grow: 3;
+    text-align: center;
+    font-size: 30px;
+}
+.right5{
+    flex-grow: 1;
+    margin-right: 10px;
+    align-content: center;
+}
+.calendar_pic5{
+    width: 60px;
+    height: 60px;
+    filter: invert(21%) sepia(68%) saturate(6915%) hue-rotate(355deg) brightness(107%) contrast(124%);
 }
