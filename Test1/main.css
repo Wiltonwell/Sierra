@@ -52,11 +52,8 @@ body{
     height: auto;
     width: 100%;
     position: absolute;
-    background: url(Media/purple2.jpeg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url(../Media/purple3new.jpeg) no-repeat center center fixed, repeating-radial-gradient(red, blueviolet) no-repeat center center fixed;
+    background-size: auto 100%, 100% 100%;
 }
 .upcoming{
     margin-top: -60px;
