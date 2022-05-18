@@ -53,7 +53,7 @@ body{
     height: auto;
     width: auto;
     position: absolute;
-    background: url(/Media/sword.svg) no-repeat fixed center;
+    background: url(../Media/sword.svg) no-repeat fixed center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

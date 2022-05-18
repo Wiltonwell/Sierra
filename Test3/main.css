@@ -52,7 +52,7 @@ body{
     height: auto;
     width: 100%;
     position: absolute;
-    background-image: url(/Media/purple1.jpeg),repeating-radial-gradient(Red, Purple);
+    background-image: url(../Media/purple1.jpeg),repeating-radial-gradient(Red, Purple);
     background-position: center, center;
     background-repeat: no-repeat, no-repeat;
     background-attachment: fixed, fixed;

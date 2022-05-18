@@ -52,7 +52,7 @@ body{
     height: auto;
     width: 100%;
     position: absolute;
-    background: url(/Media/sword.jpeg) repeat center center fixed;
+    background: url(../Media/sword.jpeg) repeat center center fixed;
     /*background-image: repeating-radial-gradient(Red, Blue);*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
