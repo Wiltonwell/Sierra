@@ -53,7 +53,7 @@ body{
     height: auto;
     width: 100%;
     position: absolute;
-    background: url(/Media/purple2.jpeg) no-repeat fixed center;
+    background: url(Media/purple2.jpeg) no-repeat fixed center;
     background-size: 100% 100%;
 }
 .upcoming{
